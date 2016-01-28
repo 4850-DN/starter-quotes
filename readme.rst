@@ -7,6 +7,8 @@ Li-Jen (David) Wang - ack
 Conventions
 ------------
 almonddddd style
+allman style
+lala
 
 
 #######################
