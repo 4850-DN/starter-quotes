@@ -1,3 +1,15 @@
+****************
+Team Members
+****************
+Nancy Ra
+Li-Jen (David) Wang
+
+-------------
+Conventions
+------------
+allman style
+
+
 #######################
 Starter Webapp - Quotes
 #######################
