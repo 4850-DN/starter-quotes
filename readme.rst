@@ -1,9 +1,7 @@
-TESTING****************
-
 Team Members
 ****************
-Nancy Ra -ack
-Li-Jen (David) Wang
+Nancy Ra - ack
+Li-Jen (David) Wang - ack
 
 -------------
 Conventions
