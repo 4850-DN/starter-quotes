@@ -52,7 +52,7 @@ $route['dunno'] = function() {
 };
 $route['([a-z]{4})/bingo'] = "bingo";
 $route['404_override'] = '';
-
+$route['([a-z]+)(\d+)/([a-z]+)'] = "wise/bingo";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
