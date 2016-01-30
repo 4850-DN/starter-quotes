@@ -50,6 +50,7 @@ $route['dunno'] = function() {
     readfile($source); //dish it
     die(); //and we don't have to go any further
 };
+$route['([a-z]{4})/bingo'] = "bingo";
 $route['404_override'] = '';
 
 
