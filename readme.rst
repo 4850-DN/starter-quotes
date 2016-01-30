@@ -1,14 +1,13 @@
 Team Members
 ****************
-Nancy Ra - ack
-Li-Jen (David) Wang - ack
+Nancy Ra
+Li-Jen (David) Wang
 
 -------------
 Conventions
 ------------
 almonddddd style
 allman style
-lala
 
 
 #######################
