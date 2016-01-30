@@ -1,12 +1,20 @@
+*************
 Team Members
-****************
+*************
 Nancy Ra
 Li-Jen (David) Wang
 
--------------
+************
 Conventions
-------------
-allman style
+************
+Allman style
+
+******************
+Task Distribution
+******************
+Nancy - Odds
+David - Evens
+
 
 
 #######################

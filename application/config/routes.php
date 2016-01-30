@@ -40,8 +40,11 @@
 
 $route['default_controller'] = "welcome";
 $route['sleep'] = "first/zzz";
+//route to the zxzz()function in the first controller
 $route['lock/(:any)/(:any)'] = "welcome/shucks";
+//route to the shucks()function in the welcome controller
 $route['show/(:num)'] = "first/gimme/3";
+//route to first controller, gimme method, 3() function
 $route['dunno'] = function() {
     $source = './data/surprise.jpg'; //an image you provide
     //set the mime type for that image
@@ -51,8 +54,11 @@ $route['dunno'] = function() {
     die(); //and we don't have to go any further
 };
 $route['([a-z]{4})/bingo'] = "bingo";
+//remapped a regular expression in ordere to route to the Bingo controller
 $route['404_override'] = '';
 $route['([a-z]+)(\d+)/([a-z]+)'] = "wise/bingo";
+//As long as #1 is a string of alphanumeric followed by numeric, and $2 is 
+//numeric, it will route to the bingo() function in the wise controller
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
