@@ -42,6 +42,14 @@ $route['default_controller'] = "welcome";
 $route['sleep'] = "first/zzz";
 $route['lock/(:any)/(:any)'] = "welcome/shucks";
 $route['show/(:num)'] = "first/gimme/3";
+$route['dunno'] = function() {
+    $source = './data/surprise.jpg'; //an image you provide
+    //set the mime type for that image
+    header("Content-type: image/jpeg");
+    header('Content-Disposition: inline');
+    readfile($source); //dish it
+    die(); //and we don't have to go any further
+};
 $route['404_override'] = '';
 
 
