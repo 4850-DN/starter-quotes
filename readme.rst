@@ -6,7 +6,6 @@ Li-Jen (David) Wang
 -------------
 Conventions
 ------------
-almonddddd style
 allman style
 
 
